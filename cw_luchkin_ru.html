@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>CW Luchkin</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/profile_photo.jpg" class="profile_photo" alt="">
+        <div class="profile_name">
+            <h1>Лучкин Артур Константинович</h1>
+            <p><em>Front-end разработчик</em></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget est id mi tempus scelerisque.
+                Duis ultricies nisi sem, nec tincidunt mauris egestas sit amet. Curabitur tristique sed lacus et
+                hendrerit.</p>
+
+        </div>
+    </header>
+    <main>
+        <div class="card">
+            <h1>Образование</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget est id mi tempus scelerisque.
+                Duis ultricies nisi sem, nec tincidunt mauris egestas sit amet. Curabitur tristique sed lacus et
+                hendrerit. Vivamus ullamcorper purus eu purus posuere vulputate. Nullam aliquet semper scelerisque.
+                Suspendisse tortor sem, tempor vel nisi non, tempus accumsan augue. Mauris non porta libero, et
+                fermentum enim. Ut eu lorem a neque varius euismod ac ac ex. </p>
+        </div>
+        <div class="card">
+            <h1>Опыт</h1>
+            <ol>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget est id mi tempus
+                    scelerisque.</li>
+                <li> Duis ultricies nisi sem, nec tincidunt mauris egestas sit amet.</li>
+                <li>Curabitur tristique sed lacus et
+                    hendrerit. Vivamus ullamcorper purus eu purus posuere vulputate.</li>
+                <li>Nullam aliquet semper scelerisque.
+                    Suspendisse tortor sem, tempor vel nisi non, tempus accumsan augue.</li>
+                <li>Mauris non porta libero, et
+                    fermentum enim. Ut eu lorem a neque varius euismod ac ac ex.</li>
+            </ol>
+        </div>
+        <div class="card">
+            <h1>Знания и умения</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget est id mi tempus scelerisque.
+                Duis ultricies nisi sem, nec tincidunt mauris egestas sit amet. Curabitur tristique sed lacus et
+                hendrerit. Vivamus ullamcorper purus eu purus posuere vulputate. Nullam aliquet semper scelerisque.
+                Suspendisse tortor sem, tempor vel nisi non, tempus accumsan augue. </p>
+        </div>
+        <div class="card">
+            <h1>Личные качества</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget est id mi tempus scelerisque.
+                Duis ultricies nisi sem, nec tincidunt mauris egestas sit amet. Curabitur tristique sed lacus et
+                hendrerit. Vivamus ullamcorper purus eu purus posuere vulputate. Nullam aliquet semper scelerisque.
+                Suspendisse tortor sem, tempor vel nisi non, tempus accumsan augue. Mauris non porta libero, et
+                fermentum enim. Ut eu lorem a neque varius euismod ac ac ex. </p>
+        </div>
+    </main>
+    <footer>
+        <section class="social">
+            <ul>
+                <li><a href="https://www.facebook.com/arthur.luchkin">Facebook</a></li>
+                <li><a href="https://www.instagram.com/arturio_rays/">Instagram</a></li>
+                <li><a href="https://t.me/arturio_rays">Telegram</a></li>
+                <li><a href="mailto:arthur.rayson@gmail.com">Gmail</a></li>
+            </ul>
+        </section>
+        <p class="copyright"><strong>2021 &#169 Артур Лучкин. Все права защищены</strong></p>
+    </footer>
+
+    <style>
+        body {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            background-color: #d4d4d4;
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .profile_photo {
+            width: 200px;
+            border-radius: 50%;
+            margin-left: 80px;
+        }
+
+        .profile_name {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            width: 500px;
+            margin-right: 180px;
+        }
+
+        .profile_name h1 {
+            color: #561b17;
+            margin-bottom: 0;
+        }
+
+        .profile_name p {
+            padding-bottom: 20px;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        main {
+            display: flex;
+            font-family: 'Roboto', sans-serif;
+            margin-top: 10px;
+        }
+
+        .card {
+            background-color: #d4d4d4;
+            width: 25%;
+            margin-left: 10px;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .card:first-child {
+            margin-left: 0;
+        }
+
+        .card h1 {
+            font-size: 24px;
+        }
+
+        .card p {
+            font-size: 14px;
+            line-height: 1.8em;
+        }
+
+        footer {
+            background-color: #d4d4d4;
+            border-radius: 8px;
+        }
+
+        ul {
+            text-align: center;
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        .social li {
+            display: inline-block;
+            list-style: none;
+            padding: 15px;
+        }
+
+        .copyright {
+            font-family: 'Roboto'sans-serif;
+            font-size: 16px;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+    </style>
+</body>
+
+</html>
